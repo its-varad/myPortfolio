@@ -1,0 +1,10 @@
+[
+    {
+      "title": "Admin-dashboard",
+      "imageSrc": "projects/project.png",
+      "description": "This is project made to learn industry level programming built on React, GraphQL and Node.js",
+      "skills": ["React", "GraphQL", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
