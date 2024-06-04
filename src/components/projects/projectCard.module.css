@@ -59,7 +59,7 @@
     color: var(--color-text);
     font-weight: 400;
     border-radius: 100px;
-    font-size: 25px;
-    background: var(--color-dark);
+    font-size: 20px;
+    background: var(--color-bg);
     padding: 10px 22px;
 }
