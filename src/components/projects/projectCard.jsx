@@ -7,9 +7,8 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
     console.log("rendering:",title)//debug
   return (
     <div className={styles.container}>
-      <img className={styles.image} src={getimageUrl("projects/refine.png")}/>
+      <img className={styles.image} src={getimageUrl(imageSrc)}/>
       <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => (
           <li className={styles.skill}key={id}>{skill} </li>
@@ -17,8 +16,10 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
       </ul>
       <div className={styles.links}>
         <a className={styles.link}href={demo}>Live on Vercel</a>
+          <span className={styles.span}>|</span>
         <a className={styles.link}href={source}>Git Repo</a>
       </div>
     </div>
+
   );
 };

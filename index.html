@@ -8,6 +8,18 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx">
+      window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPosition = window.scrollY;
+        const scrollPercent = (scrollPosition / totalHeight) * 100;
+
+        // Adjust border gradient length as scroll percentage grows
+        navbar.style.borderImage = `linear-gradient(90deg, #3498db ${scrollPercent}%, transparent 0%) 1`;
+      });
+
+    </script>
+
   </body>
 </html>

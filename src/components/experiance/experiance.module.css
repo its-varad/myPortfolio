@@ -2,9 +2,10 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 79px;
+    position: relative;
     margin-left: 10%;
     margin-right: 10%;
+    scroll-margin-top: 125px;
 }
 
 .title {
@@ -19,14 +20,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 14px;
+    margin-top: 60px;
 }
 
 .skills {
-    width: 45%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap:37px;
+    justify-content: center;
+
+}
+
+.skills::-webkit-scrollbar{
+    display: none;
 }
 
 .skill {
@@ -49,6 +56,11 @@
 .skillImageContainer img {
     width: 75px;
 }
+.skillImageContainer:hover{
+    transform: rotate(360deg);
+    transition: 0.5s ease-out;
+    background: white;
+}
 .skill p {
     font-size: 25px;
     font-family:var(--font-roboto) ;
@@ -56,7 +68,7 @@
 }
 
 .history {
-    width: 455;
+    width: 455px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -114,6 +126,9 @@
     .history {
         width: 100%;
         gap: 9px;
+    }
+    .title{
+        margin-bottom: 40px;
     }
     
 }

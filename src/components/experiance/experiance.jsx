@@ -5,7 +5,7 @@ import history from "../../data/history.json"
 import { getimageUrl } from '../../util'
 export const Experiance = () => {
   return <section className={styles.container} id='experience'>
-    <h2 className={styles.title}>Experience</h2>
+    <h2 className={styles.title}>Skills</h2>
     <div className={styles.content}>
         <div className={styles.skills}>
             {

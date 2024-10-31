@@ -6,6 +6,7 @@ import { About } from './components/About/about'
 import { Projects } from './components/projects/projects'
 import {ProjectCard} from './components/projects/projectCard'
 import { Contact } from './components/contact/contact'
+import ScrollProgressBar from "./components/ScrollBar/scroll";
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <Experiance/>
       <Projects/>
       <Contact/>
+        <ScrollProgressBar/>
     </div>
   )
 }

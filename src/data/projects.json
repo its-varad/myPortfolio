@@ -1,10 +1,17 @@
 [
     {
       "title": "Admin-dashboard",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/refine.png",
       "description": "This is project made to learn industry level programming built with React, GraphQL and Node.js",
       "skills": ["React", "GraphQL", "Node"],
-      "demo": "https://admin-dashboard-lshr7r320-its-varads-projects.vercel.app",
+      "demo": "https://admin-dashboard-its-varads-projects.vercel.app/",
       "source": "https://github.com/its-varad/Admin_Dashboard.git"
-    }
+    },
+  {
+    "title": "React-Chat App",
+    "imageSrc": "projects/cover4.png",
+    "skills": [],
+    "demo": "",
+    "source": ""
+  }
   ]
