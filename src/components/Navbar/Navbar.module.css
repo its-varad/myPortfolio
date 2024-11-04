@@ -15,9 +15,7 @@
     -webkit-backdrop-filter: blur( 4px );
 
 }
-.navbar.scrolled {
-    background-color: rgba(25, 55, 109, 0.9); /* New background color on scroll */
-}
+
 .title {
     font-size: 30px;
     font-weight: 600;
@@ -31,7 +29,6 @@
 
 .menu {
     display: flex;
-
 }
 
 .separator {
@@ -42,6 +39,7 @@
 .menuBtn{
     display: none;
 }
+
 .menuItems {
     display: flex;
     gap: 47px;
@@ -55,6 +53,9 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+}
+.menuItems{
+    transition: 0.3s ease-in;
 }
 .menuItems a:hover {
     color: black;
