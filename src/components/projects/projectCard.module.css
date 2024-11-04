@@ -76,7 +76,7 @@
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:550px) {
     .links{
         display: flex;
         flex-wrap: wrap;
@@ -84,8 +84,8 @@
 
     }
     .container  {
-        max-width: 300px;
-        margin: 25px;
+        max-width: 200px;
+        margin: 10px;
         scale: 0.8;
     }
     .container img {
